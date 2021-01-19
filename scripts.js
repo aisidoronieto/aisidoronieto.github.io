@@ -22,7 +22,7 @@ app.appendChild(container);
 
 
 //API call
-const urlrequest = 'http://localhost:8000/qr-api/?qrUrl='+ qrUrl;
+const urlrequest = 'http://aisidoronieto.eu.pythonanywhere.com/qr-api?qrUrl='+ qrUrl;
 var request = new XMLHttpRequest();
 request.open('GET', urlrequest, true);
 request.onload = function () {
